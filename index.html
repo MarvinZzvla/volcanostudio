@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcano Studio</title>
+    <link rel="shortcut icon" href="imagenes/volcan (9).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+
+            <a href="imagenes/McA Logo.png" class="logo">Volcano Studio</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="javascript:void(0);" onclick="scrollToPrice()">Servicios</a></li>
+                    <li><a href="index2.html">Portafolio</a></li>
+                    <li><a href="javascript:void(0);" onclick="scrollToMedia()">Contactenos</a></li>
+
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Haz Notar a Tu Negocio</h1>
+                <p> Te brindaremos las mejores estrategias en Marketing Digital
+                    para el crecimiento de tu Empresa. Encuentra con nosotros la confianza de estrablecer tu marca
+                    en las redes sociales, sitios web y en el mundo digital. Se parte de este cambio con nosotros.
+                </p>
+                <a href="javascript:void(0);" onclick="scrollToPDF()" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/servicio-en-linea.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <main class="servicies container">
+
+        <section class="information container">
+            <div class="information-1">
+
+                <h2>Crecimiento Continuo</h2>
+                <p>
+                    Contamos con las mejores estrategias para que negocio crezca. te presencia en el mercado digital
+                    mediante
+                    las redes sociales, Facebook , Instagram, y diferentes medios digitales.
+                </p>
+                <a href="#" class="btn-1">Mas Informacion</a>
+            </div>
+
+            <div class="information-2">
+                <img src="imagenes/informacion.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    <div class="texto">
+        <h4>¿Que Opinan Nuestros Clientes?</h4>
+        <p>
+            La confiaza es algo que se gana, nuestros clientes hablan de ellos, conoce nuestro trabajo
+        </p>
+    </div>
+
+    <section class="information container">
+        <div class="service">
+            <img src="imagenes/redes-sociales.png" alt="">
+            <h3>Hecha un Vistazo </h3>
+            <p>
+                La calidad es nuestro objetivo conoce nuestros proyectos.
+            </p>
+            <a href="index2.html">Ver mas</a>
+
+        </div>
+
+        <div class="service">
+            <img src="imagenes/crecimiento-social.png" alt="">
+            <h3>Conoce nuestros Proyectos</h3>
+            <p>
+                Nuestros Clientes nos respaldan, conoce nuestros proyectos.
+            </p>
+
+
+        </div>
+
+        <div class="service">
+            <img src="imagenes/medios-de-comunicacion-social.png" alt="">
+            <h3>Haz notar tu Negocio</h3>
+            <p>
+                Se parte del cambio digital haz que tu negocio tome relevancia.
+            </p>
+
+
+        </div>
+
+    </section>
+
+    <section class="app container">
+
+        <div class="app-1">
+            <img src="imagenes/app2.png" alt="">
+        </div>
+       
+        <div class="app-2" id="pdf_link">
+            <h2>Resultados Garantizados</h2>
+            <p>
+                Volcano Studio Te garantiza que tu imversion obtendra Resultados, mediante nuestras habilidades lograras
+                sobresalir en las
+                redes sociales, atraer clientes y asegurar tus ventas, descarga nuestro documentos con toda la
+                informacion que necesites
+            </p>
+            <a href="documento/Modern Business Marketing proposal.pdf" class="btn-1">Descarga nuestro plan</a>
+        </div>
+
+    </section>
+
+    <section class="pricing container">
+
+        <h2>¿Quieres que tu negocio Crezca?</h2>
+        <p>
+            Con nuestros planes lograras el crecimiento que tu negocio necesita. Elige el plan que mas te convenga,
+            Volcano Studio te atendera.
+        </p>
+
+        <div id="price_links" class="pricing-1">
+
+            <div class="price">
+                <h3>Plan Economico</h3>
+                <p class="precio">$60</p>
+                <p aling="left">
+
+                    <li>• Creación de Redes Sociales</li>
+                    <li>• Creación de Contenido Digital</li>
+                    <li>• Manejo de Cuenta Publicitaria</li>
+                    <li>• Reportes de Alcance</li>
+                </p>
+                <a href="#" onclick="whatsappMe('Economico')" class="btn-1">Contratacion</a>
+            </div>
+
+            <div class="price">
+                <h3>Plan Basico</h3>
+                <p class="precio">$199</p>
+                <p aling="center">
+                    <li>• Creación de redes sociales.</li>
+                    <li>• Contenido Digital.</li>
+                    <li>• Manejo de cuentas publicitarias</li>
+                    <li>• Campaña de Anuncios</li>
+                    <li>• Optimización de conversaciones.</li>
+                    <li>• FeedBack a comentarios y clientes.</li>
+                    <li>• Reportes de alcance.</li>
+                </p>
+                <a href="#"  onclick="whatsappMe('Basico')" class="btn-1">Contratacion</a>
+            </div>
+
+            <div class="price">
+                <h3>Plan Emprendedor</h3>
+                <p class="precio">$499</p>
+                <p aling="left">
+                    <li>• Incluye Plan Básico</li>
+                    <li>• Email Marketing.</li>
+                    <li>• Creación de Landing Page</li>
+                    <li>• Posicionamiento en Google.</li>
+                    <li>• Reportes de alcance.</li>
+                </p>
+                <a href="#"  onclick="whatsappMe('Emprendedor')" class="btn-1">Contratacion</a>
+            </div>
+
+            <div class="price">
+                <h3>Plan Profesional + Plan Emprendedor</h3>
+                <p class="precio">$599</p>
+                <p aling="left">
+
+                    <li>• Incluye Plan Emprendedor.</li>
+                    <li>• Google Ads</li>
+                    <li>• Producción Audiovisual.</li>
+                    <li>• Integraciones en Redes Sociales.</li>
+                    <li>• Seguimiento a cllientes</li>
+                    <li>• Reportes de Alcances.</li>
+                </p>
+                <a href="#"  onclick="whatsappMe('Profesional + Plan Emprendedor')" class="btn-1">Contratacion</a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__container container">
+
+            <div class="footer__contact">
+                <div class="footer__texts">
+                    <h2 class="title">¿Tienes algunda duda?</h2>
+                    <p class="footer__copy">Si tienes alguna duda, puedes conctarme en cualquiera de mis redes sociales
+                    </p>
+
+                    <div id="social_links">
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/Publicidad.Ventas.Volcano?mibextid=ZbWKwL"
+                                class="footer__link">
+                                <img src="imagenes/facebook.png" class="footer__icon">
+                            </a>
+                            <a href="https://www.instagram.com/volcano_studio23/?igshid=NGExMmI2YTkyZg==&fbclid=IwAR2Li9HEG8hyimEO8k4I5Zf1bCttYrjQchBeMoATtDO8gxPb2FQrFi5uIuI"
+                                class="footer__link">
+                                <img src="imagenes/instagram.png" class="footer__icon">
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=50587214100&text=%C2%A1Hola%20soy%20Jacobo%20de%20Volcano%20Studio%2C%20en%20que%20podemos%20servirle!."
+                                class="footer__link">
+                                <img src="imagenes/whatsapp.png" class="footer__icon">
+                            </a>
+                            <a href="mailto:developmentvolcanostudio@gmail" class="footer__link">
+                                <img src="imagenes/gmail.png" class="footer__icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <figure class="footer__picture">
+                    <img src="imagenes/message-ilustration.svg" class="footer__img">
+                </figure>
+            </div>
+
+            <p class="footer__copyright">
+                Sitio web creado por &copy; Volcano Studio :
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+<script>
+    function scrollToMedia(){
+            var element = document.getElementById("social_links")
+            element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function scrollToPDF(){
+        console.log("scrollToPD")
+        var element = document.getElementById("pdf_link")
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function scrollToPrice(){
+    var element = document.getElementById("price_links")
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+
+function whatsappMe(plan) {
+    var msj = "Me interesa el Plan " + plan + ". ¿Me podria brindar mas informacion?"
+    var url = "https://wa.me/50587214100?text="+ encodeURIComponent(msj)
+    window.open(url);
+}
+
+    
+</script>
+
+</html>
